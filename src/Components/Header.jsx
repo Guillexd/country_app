@@ -35,7 +35,7 @@ export default function Header({ countries }) {
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
                         />
-                        <button type='submit'>Enviar</button>
+                        <button className='hidden' type='submit'>Enviar</button>
                     </form>
                     <datalist id='countries'>
                         { countries.map((data, index) => {
