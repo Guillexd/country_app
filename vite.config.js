@@ -9,9 +9,7 @@ export default defineConfig({
     strictPort: true,
     port: 5173 ,
   },
-  resolve: {
-    extensions: ['.jsx', '.json', '.js'],
-  },
+  base: '/country_app/'
   // css: {
   //   postcss: {
   //     plugins: [

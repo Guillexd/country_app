@@ -1,5 +1,5 @@
 
-const api =  '/data.json'
+const api =  'data.json'
 
 export async function getCountries(region = null) {
     return await fetch(api)
